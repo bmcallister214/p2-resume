@@ -1,12 +1,97 @@
 /* Your Website Styles */
-body {
-	background: #eee;
+h1{
+	color: #ABE3CD;
+	background: #629682;
+	border-radius: 15px;
+	margin: 30px 0 10px 0;
+	padding: 20px; 
+	font-family: 'Arvo', serif;
+	font-size: 2.8em;
+	text-align: center;
+	opacity: 0.75;
+	
+
+}
+body{
+	background: url("../img/tree_bark.png");
+}
+
+img {
+	max-width: 100%;
+	border-radius: 30px;
+	padding: 0;
+	margin-top: -115px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #629682;
+}
+
+h2	{
+	color: #629682;
+	font-family: 'Arvo', serif;
+}
+
+p {
+	color: #965F53;
+	font-family: 'Arvo', serif;
+
 }
 
 
-div {
-	margin-top: -60px;	x 
+
+blockquote	{
+	color: #965F53;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+
 }
+
+ul {
+	list-style: none;
+}
+
+
+a {
+	text-decoration: none;
+	color: #965F53;
+	font-family: 'Arvo', serif;
+	font-size: 1.2em;
+}
+
+.links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+
+}
+
+.links a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+	
+}
+
+.links li.github a {
+	background-image: url('../img/github.png');
+	
+}
+
+.links li.facebook a {
+	background-image: url('../img/facebook.png');
+
+}
+
+.links li.ewu a {
+	background-image: url('../img/ewu.png');
+
+}
+
 
 
 /* Show Grid */
