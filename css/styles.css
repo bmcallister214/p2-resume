@@ -25,7 +25,7 @@ h2	{
 	margin: 30px 0 10px 0;
 	padding: 20px; 
 	font-size: 2.8em;
-	opacity: 0.75;
+	opacity: 0.55;
 }
 
 p {
@@ -36,17 +36,29 @@ p {
 
 ul {
 	list-style: none;
+	text-indent: 65px;
+	color: #965F53;
+	font-family: 'Arvo', serif;
+	font-size: .9em;
+
 }
 
 .info{
 	text-indent: 100px;
+	font-size: .9em;
 }
 .school {
-	font-weight: bold;
+	font-weight: bolder;
 	text-indent: 50px;
 }
+
+.title {
+	font-weight: bold;
+}
+
 .job {
 	text-align: center;
+	font-weight: normal;
 }
 
 .para {
